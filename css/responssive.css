@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+/*========================================================Start Beatles Section=================================================*/
+    .beatles-icons {
+        text-align: center;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    /*========================================================Start Beatles Section=================================================*/
+ 
+     /*========================================================Start Banner Section=================================================*/
+ 
+    .logo-part {
+        text-align: center;
+    }
+    
+    
+    ul {
+        text-align: center;
+        margin-top: -33px;
+        margin-right: 50px;
+    }
+
+    .banner-text {
+        margin-right: 143px;
+    }
+   /*========================================================End Banner Section=================================================*/
+ 
+   .about-img img {
+    display: none;
+   }
+
+   .about-txt {
+    text-align: center;
+    }
+
+    .about-txt p{
+    text-align: center;
+    width: 550px;
+    }
+
+  .servic-txt p{
+    line-height: 1;
+  }
+
+  /*========================================================End about Section=================================================*/
+ 
+}
+

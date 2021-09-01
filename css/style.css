@@ -1,0 +1,524 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h4,h5,p{
+    margin:0px;
+    padding: 0px;
+}
+
+/*========================================================Start Beatles Section=================================================*/
+.beatles{
+    background: #0872b9;
+}
+
+.left {
+    margin-top: 7px;
+}
+
+.left p{
+    font-size: 16px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.right {
+    text-align: right;
+    margin-top: 7px;
+}
+.beatles-icons a i{
+    color: whitesmoke;
+    margin-left: 10px;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.beatles-icons a i:hover{
+    color: black;
+    transition: .5s;
+}
+/*========================================================End Beatles Section=================================================*/
+
+/*========================================================Start Logo Section=================================================*/
+
+.logo-part img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.menu{
+    text-align: right;
+    margin-top: 25px;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu ul li a{
+     color: black;
+     margin-left: 15px;
+     text-decoration: none;
+     font-size: 18px;
+     font-family: 'open-sans';
+}
+
+.menu ul li a:hover{
+    color: cornflowerblue;
+    transition: .5s;
+}
+/*========================================================End Logo Section=================================================*/
+
+
+/*========================================================Start Banner Section=================================================*/
+
+.banner-section{
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/Beatles.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+   height: 450px;
+   width: 100%;
+}
+
+.overlay .hi{
+    color: cornsilk;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+
+}
+
+.overlay h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: cornsilk;
+    font-size: 45px;
+}
+
+.overlay .banner-text{
+    text-align: right;
+    padding: 100px 0;
+}
+
+.banner-text .lorem1{
+    margin-left: 600px;
+    width:500px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: 'open-sans', sans-serif;
+    color: cornsilk;
+    margin-top: 15px;
+
+
+}
+
+.b-btn a{
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid;
+    color: whitesmoke;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 15px;
+    font-weight: 550;
+}
+
+.b-btn a:hover{
+    cursor: pointer;
+    background-color: #0872b9;
+    border-color: #0872b9;
+}
+
+.b-btn{
+    margin-top: 25px;
+}
+/*========================================================End Banner Section=================================================*/
+
+
+/*========================================================start about-us Section=================================================*/
+
+
+.about-us{
+    margin-top: 25px;
+}
+
+.all-txt{
+    text-align: center;
+}
+
+.all-txt img{
+    margin-right: 20px;
+    margin-bottom: 24px;
+
+}
+.all-txt p{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'oswald', sans-serif;
+    font-weight: 600;
+}
+
+.about-img{
+    display:flex;
+}
+
+
+.about-txt p{
+    padding: 15px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/*========================================================End about-us  Section=================================================*/
+
+/*========================================================start service-us  Section=================================================*/
+
+
+.service-us{
+    margin-top: 35px;
+}
+
+.services{
+    display: flex;
+    margin-top: 60px;
+}
+.services .service{
+    width: 30%;
+    margin:0 20px;
+    background: #f1f1f1;
+    height: 200px;
+    text-align: center;
+}
+
+.services .service:hover{
+    box-shadow: 0 0 15px;
+}
+
+.round{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+.border-round{
+    height: 90px;
+    position: absolute;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+    background: #f1f1f1;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.border-round img{
+    margin-top: 25px;
+}
+
+.border-round:hover{
+    background:#0dcaf0 ;
+    cursor: pointer;
+    transition: .4s;
+    border:#0dcaf0 ;
+}
+
+.service h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family:'oswald', sans-serif;
+    font-size: 19px;
+    font-weight: 550;
+}
+
+.service p{
+    text-align: center;
+    padding: 0 10px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.servic-txt {
+    margin-top: -48px;
+}
+/*========================================================End service-us  Section=================================================*/
+
+/*========================================================start protfolio Section=================================================*/
+
+
+.protfolio{
+    margin-top: 100px;
+}
+.port-img img{
+    width: 100%;
+}
+
+.port-img{
+    margin: 20px 10px;
+    position: relative;
+}
+
+.overlay1{
+    height: 0%;
+    width:100%;
+    background: chartreuse;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.port-img:hover .overlay1{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    transition: .5s;
+    height: 100%
+
+}
+
+
+/*========================================================End protfolio  Section=================================================*/
+
+
+/*========================================================start Team Section=================================================*/
+
+.team-section{
+    margin-top: 100px;
+}
+
+.member-img img{
+   width: 100%;
+}
+
+.member-img{
+    position: relative;
+}
+
+.team-about p{
+    text-align: center;
+}
+
+.team-about h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #353535;
+}
+
+.overlay-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.icons-2 a{
+    display: block;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    margin: 25px 15px;
+}
+
+
+.our-member:hover .overlay-2{
+    opacity: 1;
+}
+
+
+.our-member:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+
+
+.our-member:hover .team-about h2{
+    color: rgb(35, 127, 212);
+    transition: .4s;
+}
+
+.icons-2 a:hover {
+    background-color: rgb(16, 128, 219);
+    transition: .4s;
+    border:rgb(16, 128, 219) ;
+}
+
+
+/*========================================================End Team Section=================================================*/
+
+
+
+/*========================================================start Testimonial  Section=================================================*/
+
+
+.testimonial-section{
+    margin-top: 90px;
+}
+
+
+
+.member2-img{
+    text-align: center;
+}
+
+.testimonial-txt{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 36px;
+    padding: 20px;
+}
+
+.alom{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.chairman{
+    font-family: 'Oswald', sans-serif; 
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonial-txt p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+/*========================================================End Testimonial  Section=================================================*/
+
+
+
+/*========================================================Start Footer  Section=================================================*/
+
+.footer-section{
+    width: 100%;
+    height: 300px;
+   background-color: #353535;
+    margin-top: 30px;
+}
+
+.f-logo{
+    width: 30%;
+    color: white;
+}
+
+.logos{
+    margin-top: 15px;
+}
+
+
+.f-link{
+    
+    width: 20%;
+}
+
+.f-contact{
+    width: 20%;
+}
+
+.f-contact p{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:'Oswald', sans-serif ;
+    font-weight: 700;
+}
+
+.f-link p{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:'Oswald', sans-serif ;
+    font-weight: 700;
+    text-align: center;
+}
+
+.f-photo{
+    width: 30%;
+}
+
+.f-photo p{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:'Oswald', sans-serif ;
+    font-weight: 700;
+    text-align: center;
+}
+
+.f-details{
+    width: 100%;
+    height: 100%;
+    background-color: #353535;
+    display: flex;
+}
+
+.f-lorem p{
+    width: 75%;
+    font-weight: 500;
+    margin: 15px 0px;
+    color:white
+    
+}
+
+.f-all{
+    display: flex;
+    margin-top: 15px;
+}
+
+.f-text{
+    width: 70%;
+    color: white;
+    margin-top: 10px;
+}
+
+.f-text ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.f-icon{
+    width: 20%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.f-icon a{
+    display:block;
+    margin: 15px 0px;
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    background-color: #5bc5f4;
+    border: #5bc5f4;
+    border-radius: 50%;
+    line-height: 40px;
+    
+}
+/*========================================================End Footer  Section=================================================*/

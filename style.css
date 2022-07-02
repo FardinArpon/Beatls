@@ -1,0 +1,18 @@
+#wapper{
+    margin: auto;
+    width: 50%;
+    border-radius: 12px;
+    border: 2px solid grey;
+}
+
+.reg{
+    text-align: center;
+}
+
+input[type=text],[type=email],select,[type=password]
+{
+    width: 100%;
+    margin: 5px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+}
